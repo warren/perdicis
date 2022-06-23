@@ -1,7 +1,18 @@
+const { SUBSITE_URL } = require('./config/util/subsite');
+
 module.exports = {
   siteMetadata: {
     title: `Perdicis`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: SUBSITE_URL,
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        allowList: ["SUBSITE"]
+      },
+    }
+  ],
 }
+
+
