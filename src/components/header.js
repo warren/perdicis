@@ -15,7 +15,6 @@ class Header extends React.Component {
     return (
       <div>
         <Link to="/">perdicis</Link>
-        <Link to="/etymology">(?)</Link>
         {sitemap}
       </div>
     )
