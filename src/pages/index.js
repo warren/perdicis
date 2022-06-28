@@ -23,7 +23,7 @@ const MainLinkBox = () => {
       ·
       <a href="notes">notes</a>
       ·
-      <Link to="/puzzles">puzzles</Link>
+      <Link to="/puzzls">puzzles</Link>
       ·
       <Link to="/work">work</Link>
     </div>
