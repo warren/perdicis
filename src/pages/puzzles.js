@@ -7,8 +7,10 @@ const IndexPage = () => {
     <main>
       <title>Puzzles</title>
       <Header/>
-      <h1>Secret</h1>
-      <p>You found me!</p>
+      <div className="generic-page-content">
+        <h1>Secret</h1>
+        <p>You found me!</p>
+      </div>
       <Footer/>
     </main>
   )

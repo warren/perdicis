@@ -6,9 +6,11 @@ const NotFoundPage = () => {
   return (
     <main>
       <title>Not found</title>
-      <h1>Page not found</h1>
-      <div>
-        <Link to="/">Go home</Link>.
+      <div className="content">
+        <h1>Page not found</h1>
+        <div>
+          <Link to="/">Go home</Link>.
+        </div>
       </div>
     </main>
   )

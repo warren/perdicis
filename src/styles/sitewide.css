@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Spline+Sans:wght@500&family=Spline+Sans+Mono:wght@500&display=swap');
+
+
+/* Misc */
+main {
+  font-family: 'Spline Sans';
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-family: 'DM Serif Display';
+  color: #111;
+  font-size: 3rem;
+}
+
+.generic-page-content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Landing page */
+#my-name {
+  font-size: 4rem;
+}
+
+.centered {
+	text-align: center;
+}

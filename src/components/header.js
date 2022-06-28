@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import "../styles/header.css"
 
 
 class Header extends React.Component {
@@ -13,7 +14,7 @@ class Header extends React.Component {
     }
 
     return (
-      <div>
+      <div className="header">
         <Link to="/">perdicis</Link>
         {sitemap}
       </div>

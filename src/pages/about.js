@@ -7,19 +7,20 @@ const IndexPage = () => {
     <main>
       <title>About Page</title>
       <Header/>
-      <h1>About</h1>
-      <div>
-        A friend once described this website as a "mega portfolio." I think that's pretty accurate.
+      <div className="generic-page-content">
+        <h1>About</h1>
+        <div>
+          A friend once described this website as a "mega portfolio." I think that's pretty accurate.
 
-        <br/><br/>
+          <br/><br/>
 
-        My goal is to tie together all of the versions of myself scattered online. I got the idea from <a href="https://www.drorpoleg.com/on-the-internet-nobodys-knows-youre/">this article</a>.
+          My goal is to tie together all of the versions of myself scattered online. I got the idea from <a href="https://www.drorpoleg.com/on-the-internet-nobodys-knows-youre/">this article</a>.
 
-        <br/><br/>
+          <br/><br/>
 
-        This website's code is open-source at <a href="https://github.com/warren/perdicis">github.com/warren/perdicis</a>.
+          This website's code is open-source at <a href="https://github.com/warren/perdicis">github.com/warren/perdicis</a>.
+        </div>
       </div>
-
       <Footer/>
     </main>
   )

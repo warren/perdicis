@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import "../styles/sitewide.css" // NOTE: This import affects downstream child pages.
 
 
 const IndexPage = () => {
@@ -9,8 +10,10 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
       <Header shouldRenderSitemap={false}/>
-      <h1>Warren Partridge</h1>
-      <MainLinkBox/>
+      <div className="centered">
+        <h1 id="my-name">Warren Partridge</h1>
+        <MainLinkBox/>
+      </div>
       <Footer/>
     </main>
   )
