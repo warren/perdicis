@@ -9,6 +9,7 @@ const IndexPage = () => {
       <title>Work Page</title>
       <Header/>
       <h1>Work</h1>
+      <div>Page under construction. In the meanwhile visit <a href="https://warrenpartridge.me">my old site</a>.</div>
       <Footer/>
     </main>
   )
