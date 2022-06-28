@@ -12,7 +12,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "predeploy": "gatsby build",
+    "predeploy": "gatsby build && echo \"perdicis.com\" >> ./public/CNAME",
     "deploy": "gh-pages -d public"
   },
   "dependencies": {
