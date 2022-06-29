@@ -5,24 +5,52 @@
 main {
   font-family: 'Spline Sans';
   font-size: 1.25rem;
+  color: #111;
 }
 
 h1 {
   font-family: 'DM Serif Display';
-  color: #111;
   font-size: 3rem;
+  line-height: 85%;
+}
+
+a {
+	color: blue;  /* TODO: Make more interesting */
 }
 
 .generic-page-content {
+  padding-top: 7.5%;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 2.5%;
 }
 
 /* Landing page */
+.centered-landing-container {
+	padding-top: 7.5%;
+	text-align: center;
+}
+
 #my-name {
   font-size: 4rem;
 }
 
-.centered {
-	text-align: center;
+.dot-separated-list {
+  display: inline;
+  list-style: none;
+  padding: 0px;  /* Removes the padding automatically included in <ul> elements. Replacing <ul> with <div> would also work. */
 }
+.dot-separated-list li {
+  display: inline;
+}
+.dot-separated-list li::after {
+  content: '·';
+  color: #888;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+
+}
+.dot-separated-list li:last-child::after {
+  content: '';
+}
+

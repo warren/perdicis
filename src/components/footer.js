@@ -1,12 +1,15 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import "../styles/footer.css"
 
 
 const Footer = () => {
   return (
-    <div className="centered">
-      <span>© Current year · </span>
-      <Link to="/about">About this site</Link>
+  	<div id="footer-div">
+      <ul className="dot-separated-list">
+        <li>© Current year</li>
+        <li><Link to="/about">About this site</Link></li>
+      </ul>
     </div>
   )
 }

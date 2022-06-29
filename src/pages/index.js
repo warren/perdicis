@@ -10,7 +10,7 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
       <Header shouldRenderSitemap={false}/>
-      <div className="centered">
+      <div className="centered-landing-container">
         <h1 id="my-name">Warren Partridge</h1>
         <MainLinkBox/>
       </div>
@@ -21,15 +21,12 @@ const IndexPage = () => {
 
 const MainLinkBox = () => {
   return (
-    <div>
-      <Link to="/art">art</Link>
-      ·
-      <a href="notes">notes</a>
-      ·
-      <Link to="/puzzls">puzzles</Link>
-      ·
-      <Link to="/work">work</Link>
-    </div>
+    <ul className="dot-separated-list">
+      <li><Link to="/art">art</Link></li>
+      <li><a href="notes">notes</a></li>
+      <li><Link to="/puzzls">puzzles</Link></li>
+      <li><Link to="/work">work</Link></li>
+    </ul>
     )
 }
 
