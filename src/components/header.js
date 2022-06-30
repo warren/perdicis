@@ -5,18 +5,17 @@ import "../styles/header.css"
 
 class Header extends React.Component {
   render() {
-    var sitemap = <span>unset</span>
+    // var sitemap = <span>unset</span>
 
-    if (this.props.shouldRenderSitemap === true) {
-      sitemap = <span>(Render sitemap)</span>
-    } else {
-      sitemap = <span>(Do NOT render sitemap)</span>
-    }
+    // if (this.props.shouldRenderSitemap === true) {
+    //   sitemap = <span>(Render sitemap)</span>
+    // } else {
+    //   sitemap = <span>(Do NOT render sitemap)</span>
+    // }
 
     return (
-      <div className="header">
-        <Link to="/">perdicis</Link>
-        {sitemap}
+      <div id="header">
+        <Link to="/">←</Link>
       </div>
     )
   }
