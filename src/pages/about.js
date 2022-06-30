@@ -14,7 +14,7 @@ const IndexPage = () => {
 
           <br/><br/>
 
-          My goal is to tie together all of the versions of myself scattered online. I got the idea from <a href="https://www.drorpoleg.com/on-the-internet-nobodys-knows-youre/">this article</a>.
+          My goal is to tie together all of the public versions of myself scattered online. I got the idea from <a href="https://www.drorpoleg.com/on-the-internet-nobodys-knows-youre/">this article</a>.
 
           <br/><br/>
 

@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <main>
       <title>Home Page</title>
-      <Header shouldRenderSitemap={false}/>
+      {/* <Header shouldRenderSitemap={false}/> */}
       <div className="centered-landing-container">
         <h1 id="my-name">Warren Partridge</h1>
         <MainLinkBox/>
