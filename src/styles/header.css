@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@500&display=swap');
-
-
 #header {
 	/* Lock the header so it doesn't influence other page content. */
 	position: absolute;
 	top: 0.5rem;
-
-	font-family: 'Spline Sans Mono';
 	font-size: 2.5rem;
 }
