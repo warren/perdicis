@@ -10,7 +10,7 @@ const IndexPage = () => {
       <Header/>
       <div className="generic-page-content">
         <h1>Notes</h1>
-        <div>Page under construction.</div>
+        <div>Page under construction. Eventually <a href="https://notes.perdicis.com">notes.perdicis.com</a> will move in here and start paying rent.</div>
       </div>
       <Footer/>
     </main>

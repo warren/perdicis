@@ -9,7 +9,7 @@ const IndexPage = () => {
       <Header/>
       <div className="generic-page-content">
         <h1>Secret</h1>
-        <p>You found me!</p>
+        <div>You found it! Go forth and puzzle: <a href="https://christmas-puzzle-2020.onrender.com/">christmas-puzzle-2020.onrender.com</a></div>
       </div>
       <Footer/>
     </main>

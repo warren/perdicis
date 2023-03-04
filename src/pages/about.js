@@ -10,11 +10,7 @@ const IndexPage = () => {
       <div className="generic-page-content">
         <h1>About</h1>
         <div>
-          A friend once described this website as a "mega portfolio." I think that's pretty accurate.
-
-          <br/><br/>
-
-          My goal is to tie together all of the public versions of myself scattered online. I got the idea from <a href="https://www.drorpoleg.com/on-the-internet-nobodys-knows-youre/">this article</a>.
+          My goal with this site is to tie together all my online personas because I'm a hipster and wanted to make a gatsby project. I got the idea from <a href="https://www.drorpoleg.com/on-the-internet-nobodys-knows-youre/">this article</a>.
 
           <br/><br/>
 

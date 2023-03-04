@@ -15,7 +15,7 @@ const IndexPage = () => {
             - <a href="https://www.instagram.com/ryxlian">@ryxlian</a>
           </h2>
           <div>
-            I take inspiration from a bunch of artists - to name a few: <a href="https://www.instagram.com/sinixdesign">Sinix</a>, <a href="https://www.instagram.com/jenzee_art">Jen Zee</a>, <a href="https://www.instagram.com/tb_choi">TB Choi</a>, <a href="https://www.instagram.com/esbenlash">Esben Lash</a>, <a href="https://www.instagram.com/velinxi">Velinxi</a>, and similar artists who paint traditional styles digitally. Also <a href="https://wikipedia.org/wiki/J._C._Leyendecker">J.C. Leyendecker</a>.
+            I take inspiration from a bunch of artists including <a href="https://www.instagram.com/sinixdesign">Sinix</a>, <a href="https://www.instagram.com/jenzee_art">Jen Zee</a>, <a href="https://www.instagram.com/esbenlash">Esben Lash</a>, <a href="https://wikipedia.org/wiki/J._C._Leyendecker">Leyendecker</a>, and similar artists who paint traditional styles digitally.
           </div>
           <h2>
             Photography
